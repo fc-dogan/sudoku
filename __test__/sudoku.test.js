@@ -9,7 +9,7 @@ describe('Sudoku', () => {
 
   test('Should check .addToRows number is pushed to rows array', () => {
     var sudoku1 = new Sudoku()
-    sudoku1.addToRows()
+    sudoku1.addToRows(5)
     expect(sudoku1.row).toEqual([5]);
     console.log(sudoku1)
   });
