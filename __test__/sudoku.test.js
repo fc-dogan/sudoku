@@ -13,4 +13,13 @@ describe('Sudoku', () => {
     expect(sudoku1.row).toEqual([5]);
     console.log(sudoku1)
   });
+
+  test('Should check if number is between 0 and 10', () => {
+    var sudoku1 = new Sudoku()
+    sudoku1.checkNumber()
+    expect(sudoku1.row).toEqual("true");
+    console.log(sudoku1)
+  });
+
+
 });

@@ -22,9 +22,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 | Behavior   |      Input      |  Output |
 |------------|:---------------:|--------:|
-| | | |
-| | | |
-| | | |
+| Verify row is empty| Empty Array| True |
+|Verify numbers us pushed to row array | 5 | [5]|
+| Use forEach loop to ensure no one row has any number outside 1-9.  | | |
 | | | |
 
 ## Known Bugs
